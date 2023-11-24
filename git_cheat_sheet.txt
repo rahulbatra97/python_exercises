@@ -1,0 +1,19 @@
+Github cheat sheet
+
+Step 1 create a repo e.g. ‘repo1’ or get the URL of an existing repo 
+
+Step 2 in the local folder you would like to save this in do:
+git clone ‘repo URL’
+It should have now created its own version of this repo 
+
+Step 3 make your changes to the file(s) and save
+
+Step 4 stage your changes(make sure you are in the project folder e.g., ‘repo1’. Use the code 
+	git add . 
+You can check this by using 
+git status
+
+Step 5 commit changes by using this code, don’t forget to add a comment.
+	git commit -m ‘here is a commit message’
+Step 6 push the commit to the Github Repo by doing
+	git push
